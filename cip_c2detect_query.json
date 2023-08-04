@@ -1,0 +1,31 @@
+{
+    "count": 8,
+    "data": {
+        "covenant": [
+            "blazor ssl_subject_common_name : covenant\t"
+        ],
+        "posh": [
+            "ssl_subject_common_name : P18055077"
+        ],
+        "mythic": [
+            "ssl_subject_organization : Mythic port : 7443"
+        ],
+        "havoc": [
+            "jarm : 3fd21b20d00000021c43d21b21b43de0a012c76cf078b8d06f4620c2286f5e ssl_subject_organization:tech co"
+        ],
+        "sliver": [
+            "\"HTTP/1.1\" \"404 Not Found\" \"must-revalidate\" jarm : 3fd21b20d00000021c43d21b21b43d41226dd5dfc615dd4a96265559485910"
+        ],
+        "gophish": [
+            "favicon:2FE4DD37 jarm:28d28d28d00028d00041d28d28d41dd279b0cf765af27fa62e66d7c8281124"
+        ],
+        "metasploit": [
+            "metasploit ssl_subject_organization:rapid7",
+            "favicon:-79F667F ssl_subject_organizationLrapid7"
+        ],
+        "deimos": [
+            "jarm:1bd1bd1bd0001bd00041d1bd1bd41db0fe6e6bbf8c4edda78e3ec2bfb55687 ssl_subject_organization:acme co",
+            "\"Deimos C2\" ssl_subject_organization:acme co port:8443"
+        ]
+    }
+}

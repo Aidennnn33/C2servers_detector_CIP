@@ -1,14 +1,16 @@
 # About
 
-This automated tool detects C2 server IPs that have been identified on Criminal IP (https://www.criminalip.io) and retrieves their corresponding information
+This automated tool detects malicious C2 server IPs that have been identified on Criminal IP (https://www.criminalip.io) and retrieves their corresponding information.
 
-I employed the /v1/banner/search endpoint from the Criminal IP API for this purpose, enabling us to query and identify C2 (Command and Control) servers through Asset Search.
+I employed the /v1/banner/search endpoint from the criminal ip API for this purpose, enabling us to query and identify C2 (Command and Control) servers through Asset Search.
 
-The collected information about the identified C2 servers includes their type, the query used for detection, C2 server IP address, port, current status, host name, and tags.
+The collected information about the identified c&c servers includes their type, the query used for detection, C2 server IP address, port, current status, host name, and tags.
+
+I hope by registering this C2 IP in security solutions such as Firewall, IDS, IPS, SIEM, XDR, and EDR, we can prevent potential security threats, including malware, and malicious activities in advance.
 
 This data is stored in a ".csv" file format."
 
-* The query file currently uploaded offers a list of detectable C2 servers:
+* The query file currently uploaded offers a list of detectable cnc servers:
     * Covenant C2
     * Sliver C2
     * Posh C2
@@ -85,7 +87,7 @@ This data is stored in a ".csv" file format."
 
 * Upon running the program, the following process occurs:
 
-Initially, the terminal displays the current C2 being detected and the query being utilized.
+Initially, the terminal displays the current c&c being detected and the query being utilized.
 
 Once the detection for all queries is finished, the program displays the filename in which the results are saved in ".csv" format, and then the program terminates.
 

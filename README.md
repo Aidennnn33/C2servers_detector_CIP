@@ -6,7 +6,7 @@ I employed the /v1/banner/search endpoint from the criminal ip API for this purp
 
 The collected information about the identified c&c servers includes their type, the query used for detection, C2 server IP address, port, current status, host name, and tags.
 
-I hope by registering this C2 IP in security solutions such as Firewall, IDS, IPS, SIEM, XDR, and EDR, we can prevent potential security threats, including malware, and malicious activities in advance.
+I hope by registering this C2 IP in security solutions such as Firewall, IDS, IPS, SIEM, XDR, and EDR, you can prevent potential security threats, including malware, and malicious activities in advance.
 
 This data is stored in a ".csv" file format."
 

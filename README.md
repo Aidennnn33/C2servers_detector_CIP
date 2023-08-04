@@ -30,11 +30,11 @@ This data is stored in a ".csv" file format."
 ```  
 <br/>
 
-# Instsallation and Setup
+# Installation and Setup
 
 1. Download the code from the GitHub repository using the following command:
 ```
-    git clone (https://github.com/Aidennnn33/C2servers_detector_CIP)
+    git clone https://github.com/Aidennnn33/C2servers_detector_CIP
 ```
 2. Open the 'cip_c2detect.py' file in a code editor (text editor) and insert your unique API key into the 'CriminalIP_API_KEY' field located at the top.
 
